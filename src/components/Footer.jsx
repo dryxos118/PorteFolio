@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   return (

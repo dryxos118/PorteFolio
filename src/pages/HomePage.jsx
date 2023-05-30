@@ -6,10 +6,16 @@ const HomePage = () => {
     <section className="bg-white w-100 h-75">
       <div className="container mt-5">
         <div className="row">
-          <iframe src="../Images/CV_alex.pdf" className="pdfviewer" alt="CV" />
+          <iframe
+            src="../Images/CV_alex.pdf"
+            alt="CV"
+            height={"500px"}
+            width={"500px"}
+            loading="eager"
+          />
         </div>
         <div className="row mt-5">
-          <div className="col-6">
+          <div className="col-md-5 col-12">
             <h3>Diplome préparer</h3>
             <p className="fw-medium lh-lg">
               Je suis actuellement étudiant a ForEach Academy
@@ -24,7 +30,7 @@ const HomePage = () => {
               via LinkedIn ou par mail alexishu59134@gmail.com
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-md-5 col-12">
             <h3>Langage maitriser :</h3>
             <ol className="list-group">
               <li className="list-group-item d-flex justify-content-between align-items-start">
