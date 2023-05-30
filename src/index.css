@@ -188,6 +188,7 @@ a {
   margin: 0;
   font-size: 0.75rem;
   max-width: var(--fullWidth);
+  color: #d1e7dd;
 }
 
 .btnReturn {

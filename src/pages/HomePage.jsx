@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaReact, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
 
 const HomePage = () => {
   return (
-    <section className="bg-white w-100 h-75 text-center">
+    <section className="bg-white w-100 h-75">
       <div className="container mt-5">
         <div className="row">
           <div className="col"></div>
@@ -14,11 +15,10 @@ const HomePage = () => {
                 alt="CV"
               />
               <div className="card-body">
-                <h5 className="card-title">Cv Alexis Hu</h5>
+                <h5 className="card-title text-center">Cv Alexis Hu</h5>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Vous êtes intéresser par mon profils hésiter pas a me
+                  contacter via LinkedIn ou par mail alexishu59134@gmail.com
                 </p>
               </div>
             </div>
@@ -28,6 +28,15 @@ const HomePage = () => {
         <div className="row mt-5">
           <div className="col-6">
             <h3>Diplome préparer</h3>
+            <p className="fw-medium lh-lg">
+              Je suis actuellement étudiant a ForEach Academy
+              <br />
+              Je prépare un Bachelor développeur Web et Web mobile sur un durée
+              de 2 ans
+              <br />
+              Je cherche actuellement un contrat d'apprentissage dans ce domaine
+              d'activité
+            </p>
           </div>
           <div className="col-6">
             <h3>Langage maitriser :</h3>

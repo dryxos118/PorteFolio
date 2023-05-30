@@ -32,7 +32,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className={"nav-link social"} to={""}>
+                <NavLink
+                  className={"nav-link social"}
+                  to={"https://www.linkedin.com/in/alexis-hu-46bb76254/"}
+                  target="blank"
+                >
                   <FaLinkedin />
                 </NavLink>
               </li>
