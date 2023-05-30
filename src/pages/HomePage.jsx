@@ -6,24 +6,7 @@ const HomePage = () => {
     <section className="bg-white w-100 h-75">
       <div className="container mt-5">
         <div className="row">
-          <div className="col"></div>
-          <div className="col-6">
-            <div className="card mb-3">
-              <img
-                src="../Images/fondEcran.png"
-                className="card-img-top"
-                alt="CV"
-              />
-              <div className="card-body">
-                <h5 className="card-title text-center">Cv Alexis Hu</h5>
-                <p className="card-text">
-                  Vous êtes intéresser par mon profils hésiter pas a me
-                  contacter via LinkedIn ou par mail alexishu59134@gmail.com
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col"></div>
+          <iframe src="../Images/CV_alex.pdf" className="pdfviewer" alt="CV" />
         </div>
         <div className="row mt-5">
           <div className="col-6">
@@ -36,6 +19,9 @@ const HomePage = () => {
               <br />
               Je cherche actuellement un contrat d'apprentissage dans ce domaine
               d'activité
+              <br />
+              Vous êtes intéresser par mon profils hésiter pas a me contacter
+              via LinkedIn ou par mail alexishu59134@gmail.com
             </p>
           </div>
           <div className="col-6">
@@ -59,7 +45,7 @@ const HomePage = () => {
               </li>
               <li className="list-group-item d-flex justify-content-between align-items-start">
                 <div className="ms-2 me-auto">
-                  <div className="fw-bold">JavaScrip</div>
+                  <div className="fw-bold">JavaScript</div>
                 </div>
                 <span className="badge bg-black rounded-pill">
                   <FaJs color="#f0db4f" />
